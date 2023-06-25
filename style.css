@@ -558,9 +558,6 @@
 
     .hero {
         height: 40vh;
-        background-image: none;
-        background-image: url(/images/hero_image2.jpeg);
-
     }
 
     .navbar .logo img {
