@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Saira+Condensed:wght@300&display=swap"
-        rel="stylesheet">
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/icon.png">
     <script src="javascript.js" defer></script>
 
@@ -20,18 +22,24 @@
 
 <body>
 
-    <header>
+    <header> <!------------ conatins two navbars -------------->
+
+        <!-- first navbar -->
         <nav class="navbar">
             <div class="logo border">
-                <img src="images/amazon_logo.png" alt="">
+                <a href="dummy.html" class="link"><img src="images/amazon_logo.png" alt=""></a>
+
             </div>
 
-            <div class="address border">
-                <p class="text1">Deliver to</p>
-                <p class="text2"><i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>India</p>
+            <a href="dummy.html" class="link">
+                <div class="address border">
+                    <p class="text1">Deliver to</p>
+                    <p class="text2"><i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>India</p>
 
-                <!-- <i class="fa-sharp fa-solid fa-location-dot" style="color: #ffffff;"></i> -->
-            </div>
+                    <!-- <i class="fa-sharp fa-solid fa-location-dot" style="color: #ffffff;"></i> -->
+                </div>
+            </a>
+
 
             <div class="search-bar">
                 <select name="" id="" class="search-select">
@@ -59,12 +67,14 @@
                 </select>
             </div>
 
-            <div class="sign-in border">
-                <button>
-                    <p class="p1">Hello, sign in</p>
-                    <p class="p2">Account & Lists</p>
-                </button>
 
+            <div class="sign-in border">
+                <a href="dummy.html" class="link">
+                    <button>
+                        <p class="p1">Hello, sign in</p>
+                        <p class="p2">Account & Lists</p>
+                    </button>
+                </a>
             </div>
 
             <div class="offers border">
@@ -84,13 +94,16 @@
             </div>
 
         </nav>
-
+        
         <div class="search-bar-mobile-panel">
 
             <div class="search-bar-mobile">
                 <select name="" id="" class="search-select">
+
                     <option value="all">All</option>
+
                     <option value="">Art-Crafts</option>
+
                     <option value="">Baby</option>
                     <option value="">Books</option>
                     <option value="">Computers</option>
@@ -103,7 +116,8 @@
 
 
         </div>
-
+        
+        <!-- second navbar -->
         <nav class="nav2">
             <div class="all border">
                 <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
@@ -126,83 +140,99 @@
         </nav>
 
         <div class="hero">
-            <p>You are on amazon.com. You can also Shop on amazon India for millions of products with fast local
-                delivery. <a href="dummy.html"> Click here to go to amazon.in</a></p>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="images/hero_1.jpg">
+                    <div class="cap">You are on amazon.com. You can also Shop on amazon India for millions of products
+                        with fast local delivery.
+                        <a href="dummy.html">Click here to go to amazon.in</a>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/hero_2.jpg">
+                    <div class="cap">You are on amazon.com. You can also Shop on amazon India for millions of products
+                        with fast local delivery.
+                        <a href="dummy.html">Click here to go to amazon.in</a>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/hero_3.jpg">
+                    <div class="cap">You are on amazon.com. You can also Shop on amazon India for millions of products
+                        with fast local delivery.
+                        <a href="dummy.html">Click here to go to amazon.in</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-        <div class="shop-section">
-            <div class="card">
-                <h2>Computers & Accessorie</h2>
-                <a href="dummy.html">
-                    <img src="images/computer.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-            <div class="card">
-                <h2>Health & Personal Care</h2>
-                <a href="dummy.html">
-                    <img src="images/health.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-
-
-            <div class="card">
-                <h2>New arrivals in Toys</h2>
-                <a href="dummy.html">
-                    <img src="images/toys.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-
-
-            <div class="card">
-                <h2>Home & Kitchen Under $30</h2>
-                <a href="dummy.html">
-                    <img src="images/home.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-            <div class="card">
-                <h2>Toys Under $30</h2>
-                <a href="dummy.html">
-                    <img src="images/toys1.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-            <div class="card">
-                <h2>Smartwatches</h2>
-                <a href="dummy.html">
-                    <img src="images/watch.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-            <div class="card">
-                <h2>For your Fitness Needs</h2>
-                <a href="">
-                    <img src="images/fitness.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-            <div class="card">
-                <h2>Home & Kitchen Under $30</h2>
-                <a href="dummy.html">
-                    <img src="images/home.jpg" alt="">
-                    <p>See more</p>
-                </a>
-            </div>
-
-        </div>
-
     </header>
 
+
+    <!---------------------- Cards----------------------->
+    <div class="shop-section">
+        <div class="card">
+            <h2>Computers & Accessorie</h2>
+            <a href="dummy.html"><img src="images/computer.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Health & Personal Care</h2>
+            <a href="dummy.html"><img src="images/health.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>New arrivals in Toys</h2>
+            <a href="dummy.html"><img src="images/toys.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Home & Kitchen Under $30</h2>
+            <a href="dummy.html"><img src="images/home.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Toys Under $30</h2>
+            <a href="dummy.html"><img src="images/toys1.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Smartwatches</h2>
+            <a href="dummy.html"><img src="images/watch.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>For your Fitness Needs</h2>
+            <a href=""><img src="images/fitness.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Home & Kitchen Under $30</h2>
+            <a href="dummy.html"><img src="images/home.jpg" alt="">
+                <p>See more</p>
+            </a>
+        </div>
+
+    </div>
+
+
+    <!------------------------ Footer section ------------------------>
     <footer>
         <div class="footer1">
             <p>Back to top</p>
@@ -256,9 +286,13 @@
         </div>
 
         <div class="footer3">
+
             <div class="logo">
-                <img src="images/amazon_logo.png" alt="">
+                <a href="dummy.html" class="link">
+                    <img src="images/amazon_logo.png" alt="">
+                </a>
             </div>
+
             <button>
                 <select name="" id="">
                     <option value="">English</option>
@@ -267,17 +301,16 @@
                     <option value="">ES</option>
                 </select>
             </button>
-
-            <button>$ &nbsp; USS - U.S. Dollar</button>
-            <button>United States</button>
+            <a href="dummy.html" class="link"><button>$ &nbsp; USS - U.S. Dollar</button></a>
+            <a href="dummy.html" class="link"><button>United States</button></a>
         </div>
 
         <div class="footer4">
-            <p>Designed & Created by Het Patel</p>
+            <p id="p1">Designed & Created by Het Patel</p>
+            <p id="p2">**This is not the official site of Amazon. This is an Amazon-clone website that is my web
+                project.**</p>
         </div>
-        <div class="footer4" style="font-style: italic;">
-            <p>**This is not the official site of Amazon. This is an Amazon-clone website that is my web project.**</p>
-        </div>
+
     </footer>
 </body>
 

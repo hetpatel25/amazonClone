@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dummy Page </title>
+  <title>Dummy Page</title>
 </head>
 
 <style>
@@ -58,23 +58,35 @@
 
   .footer4 {
     background-color: #0f1111;
-    width: 100%;
+    width: auto;
     height: auto;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-
-
+    padding: 20px;
+    text-align: center;
   }
 
   .footer4 p {
     background-color: #0f1111;
-    text-align: center;
-    padding: 10px;
+    padding: 8px;
+
   }
+
+  .footer4 #p1 {
+    border-bottom: 0.4px solid rgb(112, 112, 112);
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .footer4 #p2 {
+    font-style: italic;
+    font-size: 0.88rem;
+    color: rgb(211, 211, 211);
+  }
+
 
   .main {
 
@@ -87,20 +99,17 @@
 
 <body>
   <div class="main">
+
     <div class="cont">
       <p>It is only Home Page.</p>
       <p>All other webpages are not available yet!</p>
-
       <a href="index.html">Back to Home Page</a>
-
-      <p class="note">Note: This is not official Amazon site</p>
-
     </div>
 
     <div class="footer4">
-      <p>Designed & Created by Het Patel</p>
-
-      <p>**This is not the official site of Amazon. This is an Amazon-clone website that is my web project.**</p>
+      <p id="p1">Designed & Created by Het Patel</p>
+      <p id="p2">**This is not the official site of Amazon. This is an Amazon-clone website that is my web project.**
+      </p>
     </div>
 
   </div>
